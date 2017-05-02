@@ -1,0 +1,32 @@
+{
+  "basicInfo": {
+    "image": "xxx",
+    "name": "Apichan Chaiyutthasat",
+    "bio": "Fullstack JS Developer",
+    "tel": "080-xxx-xxxx",
+    "email": "x@x.com",
+    "address": "Bangkok, TH"
+  },
+  "profile": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "technicalSkills": [
+    {
+      "lang": "C / C++",
+      "level": 3
+    },
+    {
+      "lang": "python",
+      "level": 3
+    },
+    {
+      "lang": "Javascript",
+      "level": 5
+    },
+    {
+      "lang": "Unix Scripting",
+      "level": 4
+    }
+  ],
+  "experiences": [
+
+  ]
+}
