@@ -1,5 +1,9 @@
-import BasicInfo from './BasicInfo';
+import BasicInfo from './BasicInfo/BasicInfo';
+import Profile from './Profile/Profile';
+import Skills from './Skills/Skills';
 
 export {
-  BasicInfo
+  BasicInfo,
+  Profile,
+  Skills,
 }

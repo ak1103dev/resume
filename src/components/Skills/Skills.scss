@@ -1,0 +1,13 @@
+.skills {
+  background-color: orange;
+  padding: 20px;
+  .rowSkill {
+    >p {
+      display: inline-block;
+      width: 150px;
+    }
+    >div {
+      display: inline-block;
+    }
+  }
+}

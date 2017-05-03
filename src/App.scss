@@ -1,24 +1,29 @@
-.App {
-  text-align: center;
+@import './components/BasicInfo/BasicInfo.scss';
+@import './components/Profile/Profile.scss';
+@import './components/Skills/Skills.scss';
+
+.app {
+  margin: 20px 100px;
+  background-color: #333;
+  color: #F1F1F1;
+  .left {
+    display: inline-block;
+    width: 40%;
+    background-color: yellow;
+  }
+  .right {
+    display: inline-block;
+    width: 60%;
+  }
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+h1 {
+  font-size: 24px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+h2 {
+  font-size: 18px;
+  font-weight: normal;
 }
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+p {
+  font-size: 14px;
 }

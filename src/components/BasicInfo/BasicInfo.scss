@@ -1,0 +1,18 @@
+.basicInfo {
+  background-color: blue;
+  padding: 20px;
+  .profileImage {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+  }
+  .rowInfo {
+    >p {
+      display: inline-block;
+      margin: 5px;
+      &:nth-child(1) {
+        width: 100px;
+      }
+    }
+  }
+}
