@@ -1,6 +1,8 @@
 @import './components/BasicInfo/BasicInfo.scss';
 @import './components/Profile/Profile.scss';
 @import './components/Skills/Skills.scss';
+@import './components/Experience/Experience.scss';
+@import './components/Education/Education.scss';
 
 .app {
   margin: 0 150px;
@@ -15,6 +17,7 @@
   .right {
     display: inline-block;
     width: 60%;
+    background-color: green;
   }
 }
 

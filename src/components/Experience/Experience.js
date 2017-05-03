@@ -2,10 +2,25 @@ import React, { Component } from 'react';
 
 export default class Experince extends Component {
   render() {
-    // const { info } = this.props;
+    const { info } = this.props;
     return (
-      <div>
+      <div className="experience">
         <h1>Experience</h1>
+        {
+          info.map((experience, index) =>
+            <div key={index}>
+              <div className="exHeader">
+                <h2>{experience.position}, {experience.company}</h2>
+                <p>{experience.start} - {experience.stop}</p>
+              </div>
+              {
+                experience.highlights.map((item, i) =>
+                  <li key={i}>{item}</li>
+                )
+              }
+            </div>
+          )
+        }
       </div>
     );
   }

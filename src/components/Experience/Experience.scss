@@ -1,0 +1,16 @@
+.experience {
+  background-color: gray;
+  padding: 20px;
+  .exHeader {
+    width: 100%;
+    >h2 {
+      display: inline-block;
+      width: calc(100% - 200px);
+    }
+    >p {
+      display: inline-block;
+      width: 200px;
+      text-align: right;
+    }
+  }
+}

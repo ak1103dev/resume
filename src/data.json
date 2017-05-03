@@ -27,6 +27,35 @@
     }
   ],
   "experiences": [
-
+    {
+      "company": "NewKru",
+      "position": "internship",
+      "start": "June 2015",
+      "stop": "July 2015",
+      "highlights": [
+        "xxxx",
+        "yyyy"
+      ]
+    },
+    {
+      "company": "TakeMeTour",
+      "position": "Fulstack JS Internship",
+      "start": "June 2016",
+      "stop": "December 2016",
+      "highlights": [
+        "xxxx",
+        "yyyy"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "institution": "Kasetsart University",
+      "address": "Bangkok, TH",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "start": "2013",
+      "stop": "2017"
+    }
   ]
 }
