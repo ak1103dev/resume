@@ -81,14 +81,27 @@
   ],
   "interests": [
     {
-      "name": "",
-      "icon": ""
+      "name": "reading",
+      "icon": "book"
+    },
+    {
+      "name": "seeing",
+      "icon": "film"
+    },
+    {
+      "name": "listening",
+      "icon": "headphones"
+    },
+    {
+      "name": "writing",
+      "icon": "pencil"
     }
   ],
   "references": [
     {
       "name": "Panjamapong Sermsawatsri",
-      "company": "TMT MARKETPLACE COMPANY LIMITED"
+      "company": "TakeMeTour",
+      "email": "xxx@takemetour.com"
     }
   ]
 }

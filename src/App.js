@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     const {
       basicInfo, profile, technicalSkills,
-      experiences, educations,
+      experiences, educations, interests, references,
     } = data;
     return (
       <div className="app">
@@ -23,8 +23,8 @@ class App extends Component {
         <div className="right">
           <Experience info={experiences} />
           <Education info={educations} />
-          <Interests />
-          <References />
+          <Interests info={interests} />
+          <References info={references} />
         </div>
       </div>
     );

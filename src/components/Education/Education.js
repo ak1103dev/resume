@@ -7,8 +7,8 @@ export default class Education extends Component {
       <div className="education">
         <h1 className="title">Education</h1>
         {
-          info.map((education) =>
-            <div>
+          info.map((education, index) =>
+            <div key={index}>
               <div className="eduHeader">
                 <h2>
                   {education.studyType}'s Degree in {education.area}, {education.institution}
