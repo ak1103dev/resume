@@ -11,8 +11,7 @@ export default class Education extends Component {
             <div>
               <div className="eduHeader">
                 <h2>
-                  {education.studyType} degree in {education.area},<br />
-                  {education.institution}
+                  {education.studyType}'s Degree in {education.area}, {education.institution}
                 </h2>
                 <p>{education.start} - {education.stop}</p>
               </div>

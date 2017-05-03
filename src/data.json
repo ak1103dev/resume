@@ -5,7 +5,7 @@
     "bio": "Fullstack JS Developer",
     "tel": "080-xxx-xxxx",
     "email": "ak.apichan1103@gmail.com",
-    "address": "Pathumthani, TH",
+    "address": "Pathumthani, Thailand",
     "socials": [
       {
         "network": "GitHub",
@@ -50,7 +50,7 @@
   "experiences": [
     {
       "company": "NewKru",
-      "position": "internship",
+      "position": "Intern",
       "start": "June 2015",
       "stop": "July 2015",
       "highlights": [
@@ -60,7 +60,7 @@
     },
     {
       "company": "TakeMeTour",
-      "position": "Fulstack JS Internship",
+      "position": "Fullstack Engineer Intern",
       "start": "June 2016",
       "stop": "December 2016",
       "highlights": [
@@ -72,7 +72,7 @@
   "educations": [
     {
       "institution": "Kasetsart University",
-      "address": "Bangkok, TH",
+      "address": "Bangkok, Thailand",
       "area": "Computer Engineering",
       "studyType": "Bachelor",
       "start": "2013",
@@ -87,8 +87,8 @@
   ],
   "references": [
     {
-      "name": "Panjamapong",
-      "company": "TakeMeTour"
+      "name": "Panjamapong Sermsawatsri",
+      "company": "TMT MARKETPLACE COMPANY LIMITED"
     }
   ]
 }
