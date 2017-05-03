@@ -1,11 +1,17 @@
 import React, { Component } from 'react';
-import { BasicInfo, Profile, Skills } from './components';
+import {
+  BasicInfo, Profile, Skills,
+  Experience, Education, Interests, References,
+} from './components';
 import data from './data.json';
 import './App.css';
 
 class App extends Component {
   render() {
-    const { basicInfo, profile, technicalSkills } = data;
+    const {
+      basicInfo, profile, technicalSkills,
+      experiences,
+    } = data;
     return (
       <div className="app">
         <div className="left">
@@ -14,7 +20,10 @@ class App extends Component {
           <Skills info={technicalSkills} />
         </div>
         <div className="right">
-          xxx
+          <Experience info={experiences} />
+          <Education />
+          <Interests />
+          <References />
         </div>
       </div>
     );
