@@ -27,20 +27,24 @@
   "profile": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "technicalSkills": [
     {
-      "lang": "C / C++",
-      "level": 3
+      "lang": "Javascript",
+      "level": 5
+    },
+    {
+      "lang": "HTML / CSS",
+      "level": 4
+    },
+    {
+      "lang": "Unix Scripting",
+      "level": 4
     },
     {
       "lang": "Python",
       "level": 3
     },
     {
-      "lang": "Javascript",
-      "level": 5
-    },
-    {
-      "lang": "Unix Scripting",
-      "level": 4
+      "lang": "C / C++",
+      "level": 3
     }
   ],
   "experiences": [

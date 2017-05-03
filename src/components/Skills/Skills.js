@@ -4,7 +4,13 @@ class Star extends Component {
   render() {
     const { num } = this.props;
     return (
-      <div>{num}</div>
+      <div className="star">
+        {
+          [0, 0, 0, 0, 0].map((star, i) =>
+            i < num ? <i className="fa fa-star fa-lg" /> : <i className="fa fa-star-o fa-lg" />
+          )
+        }
+      </div>
     );
   }
 }
