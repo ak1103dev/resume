@@ -5,13 +5,18 @@ export default class Education extends Component {
     const { info } = this.props;
     return (
       <div className="education">
-        <h1>Education</h1>
+        <h1 className="title">Education</h1>
         {
           info.map((education) =>
             <div>
-              <p>{education.start} - {education.stop}</p>
-              <h2>{education.studyType} degree in {education.area}, {education.institution}</h2>
-              <p>{education.address}</p>
+              <div className="eduHeader">
+                <h2>
+                  {education.studyType} degree in {education.area},<br />
+                  {education.institution}
+                </h2>
+                <p>{education.start} - {education.stop}</p>
+              </div>
+              <p className="eduAddress">{education.address}</p>
             </div>
           )
         }

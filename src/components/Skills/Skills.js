@@ -14,7 +14,7 @@ export default class Skills extends Component {
     const { info } = this.props;
     return (
       <div className="skills">
-        <h1>Technical Skills</h1>
+        <h1 className="title">Technical Skills</h1>
         {
           info.map((skill, i) =>
             <div key={i} className="rowSkill">

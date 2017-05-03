@@ -5,7 +5,7 @@ export default class Experince extends Component {
     const { info } = this.props;
     return (
       <div className="experience">
-        <h1>Experience</h1>
+        <h1 className="title">Experience</h1>
         {
           info.map((experience, index) =>
             <div key={index}>

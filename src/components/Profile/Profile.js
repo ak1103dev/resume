@@ -5,7 +5,7 @@ export default class Profile extends Component {
     const { info } = this.props;
     return (
       <div className="profile">
-        <h1>Profile</h1>
+        <h1 className="title">Profile</h1>
         <p>{info}</p>
       </div>
     );

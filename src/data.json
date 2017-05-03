@@ -5,7 +5,19 @@
     "bio": "Fullstack JS Developer",
     "tel": "080-xxx-xxxx",
     "email": "x@x.com",
-    "address": "Bangkok, TH"
+    "address": "Bangkok, TH",
+    "socials": [
+      {
+        "network": "GitHub",
+        "icon": "",
+        "url": "https://github.com/ak1103dev"
+      },
+      {
+        "network": "Medium",
+        "icon": "",
+        "url": "https://"
+      }
+    ]
   },
   "profile": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "technicalSkills": [
@@ -56,6 +68,18 @@
       "studyType": "Bachelor",
       "start": "2013",
       "stop": "2017"
+    }
+  ],
+  "interests": [
+    {
+      "name": "",
+      "icon": ""
+    }
+  ],
+  "references": [
+    {
+      "name": "Panjamapong",
+      "company": "TakeMeTour"
     }
   ]
 }
