@@ -1,21 +1,26 @@
 {
   "basicInfo": {
-    "image": "xxx",
+    "image": "https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.0-9/1526605_585784361492738_260833475_n.jpg?oh=ab5bfa3ed6c0d3b755256db6bd137324&oe=59862BF2",
     "name": "Apichan Chaiyutthasat",
     "bio": "Fullstack JS Developer",
     "tel": "080-xxx-xxxx",
-    "email": "x@x.com",
-    "address": "Bangkok, TH",
+    "email": "ak.apichan1103@gmail.com",
+    "address": "Pathumthani, TH",
     "socials": [
       {
         "network": "GitHub",
-        "icon": "",
+        "icon": "github",
         "url": "https://github.com/ak1103dev"
       },
       {
         "network": "Medium",
-        "icon": "",
-        "url": "https://"
+        "icon": "medium",
+        "url": "https://medium.com/@ak1103dev"
+      },
+      {
+        "network": "Facebook",
+        "icon": "facebook-square",
+        "url": "https://www.facebook.com/aphichan.chaiyutthasart"
       }
     ]
   },

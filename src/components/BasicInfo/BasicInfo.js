@@ -5,14 +5,10 @@ export default class BasicInfo extends Component {
     const { info } = this.props;
     return (
       <div className="basicInfo">
-        <div className="profileImage" />
+        <img className="profileImage" src={info.image} alt="apichan" />
         <h1>{info.name}</h1>
         <h2>{info.bio}</h2>
-        <div>
-          <div className="rowInfo">
-            <p>Telephone</p>
-            <p>{info.tel}</p>
-          </div>
+        <div className="contact">
           <div className="rowInfo">
             <p>Email</p>
             <p>{info.email}</p>
@@ -21,6 +17,15 @@ export default class BasicInfo extends Component {
             <p>Address</p>
             <p>{info.address}</p>
           </div>
+        </div>
+        <div className="socialIcons">
+          {
+            info.socials.map((social) =>
+              <a href={social.url} target="_blank">
+                <i className={`fa fa-${social.icon} fa-5x`} />
+              </a>
+            )
+          }
         </div>
       </div>
     );

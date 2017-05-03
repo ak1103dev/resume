@@ -1,17 +1,26 @@
 .basicInfo {
-  padding: 20px;
+  padding: 20px 20px 0;
   .profileImage {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+  }
+  .contact {
+    margin-bottom: 10px;
   }
   .rowInfo {
     >p {
       display: inline-block;
-      margin: 5px;
+      margin: 5px 0;
       &:nth-child(1) {
         width: 100px;
       }
+    }
+  }
+  .socialIcons {
+    >a {
+      margin-right: 20px;
+      color: #F1F1F1;
     }
   }
 }
