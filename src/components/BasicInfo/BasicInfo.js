@@ -22,7 +22,7 @@ export default class BasicInfo extends Component {
           {
             info.socials.map((social, i) =>
               <a href={social.url} target="_blank" key={i}>
-                <i className={`fa fa-${social.icon} fa-5x`} />
+                <i className={`fa fa-${social.icon} fa-4x`} />
               </a>
             )
           }

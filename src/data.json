@@ -21,6 +21,11 @@
         "network": "Facebook",
         "icon": "facebook-square",
         "url": "https://www.facebook.com/aphichan.chaiyutthasart"
+      },
+      {
+        "network": "Twitter",
+        "icon": "twitter",
+        "url": "https://twitter.com/ak1103dev"
       }
     ]
   },

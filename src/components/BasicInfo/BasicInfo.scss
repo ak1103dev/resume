@@ -18,9 +18,9 @@
     }
   }
   .socialIcons {
+    display: flex;
+    justify-content: space-around;
     >a {
-      margin-right: 20px;
-      // color: #F1F1F1;
       color: #0de599;
     }
   }
