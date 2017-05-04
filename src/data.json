@@ -85,19 +85,19 @@
   ],
   "interests": [
     {
-      "name": "reading",
+      "name": "reading books",
       "icon": "book"
     },
     {
-      "name": "seeing",
+      "name": "seeing movies",
       "icon": "film"
     },
     {
-      "name": "listening",
+      "name": "listening to music",
       "icon": "headphones"
     },
     {
-      "name": "writing",
+      "name": "writing blogs",
       "icon": "pencil"
     }
   ],

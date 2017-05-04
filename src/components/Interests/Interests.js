@@ -9,7 +9,10 @@ export default class Interests extends Component {
         <div className="interestList">
           {
             info.map((interest, i) =>
-              <i key={i} className={`fa fa-${interest.icon} fa-5x`} />
+              <div>
+                <i key={i} className={`fa fa-${interest.icon} fa-5x`} />
+                <p>{interest.name}</p>
+              </div>
             )
           }
         </div>
