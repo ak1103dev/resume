@@ -13,12 +13,12 @@
   color: #F1F1F1;
   .left {
     display: inline-block;
-    width: calc(35% - 3px);
+    width: calc(38% - 3px);
     border-right: 3px solid gray;
   }
   .right {
     display: inline-block;
-    width: 65%;
+    width: 62%;
     vertical-align: top;
   }
   @media(max-width: 767px) {
