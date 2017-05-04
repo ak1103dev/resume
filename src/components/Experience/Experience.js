@@ -13,11 +13,13 @@ export default class Experince extends Component {
                 <h2>{experience.position}, {experience.company}</h2>
                 <p>{experience.start} - {experience.stop}</p>
               </div>
-              {
-                experience.highlights.map((item, i) =>
-                  <li key={i}>{item}</li>
-                )
-              }
+              <ul>
+                {
+                  experience.highlights.map((item, i) =>
+                    <li key={i}>{item}</li>
+                  )
+                }
+              </ul>
             </div>
           )
         }
