@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import {
   BasicInfo, Profile, Skills,
-  Experience, Education, Interests, References,
+  Experience, Education, Interests,
+  // References,
 } from './components';
 import data from './data.json';
 import 'font-awesome/css/font-awesome.css';
@@ -11,7 +12,8 @@ class App extends Component {
   render() {
     const {
       basicInfo, profile, technicalSkills,
-      experiences, educations, interests, references,
+      experiences, educations, interests,
+      // references,
     } = data;
     return (
       <div className="app">
@@ -24,7 +26,7 @@ class App extends Component {
           <Experience info={experiences} />
           <Education info={educations} />
           <Interests info={interests} />
-          <References info={references} />
+          {/* <References info={references} /> */}
         </div>
       </div>
     );

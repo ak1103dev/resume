@@ -7,19 +7,21 @@
 @import './components/References/References.scss';
 
 .app {
-  margin: 0 150px;
   padding: 20px 5px;
   background-color: #333;
   color: #F1F1F1;
-  .left {
-    display: inline-block;
-    width: calc(38% - 3px);
-    border-right: 3px solid gray;
-  }
-  .right {
-    display: inline-block;
-    width: 62%;
-    vertical-align: top;
+  @media(min-width: 768px) {
+    margin: 0 150px;
+    .left {
+      display: inline-block;
+      width: calc(38% - 3px);
+      border-right: 3px solid gray;
+    }
+    .right {
+      display: inline-block;
+      width: 62%;
+      vertical-align: top;
+    }
   }
   @media(max-width: 767px) {
     margin: 0;

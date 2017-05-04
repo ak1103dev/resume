@@ -29,7 +29,7 @@
       }
     ]
   },
-  "profile": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "profile": "I like to solve problem and learn new things. I am happy when I develop and maintain some product that can solve real problem.",
   "technicalSkills": [
     {
       "lang": "Javascript",
@@ -54,16 +54,12 @@
   ],
   "experiences": [
     {
-      "company": "NewKru",
-      "position": "Intern",
-      "start": "Jun 2015",
-      "stop": "Jul 2015",
+      "company": "Kasetsart University",
+      "position": "Senior Project Developer",
+      "start": "Jan 2017",
+      "stop": "Apr 2017",
       "highlights": [
-        "Learned about developing native android application",
-        "Learned about developing mobile application with Apache Codova",
-        "Learned about Docker container",
-        "Learned about developing web with MEAN stack",
-        "Learned about Facebook graph API"
+        "Developed android application for using Knowbita comfortably with React Native and NodeJS + Spinal(Microservices Framework)"
       ]
     },
     {
@@ -75,6 +71,19 @@
         "Developed android application with React Native",
         "Developed web application with React and NodeJS + Spinal(Microservices Framework)",
         "Processed data from logs with Apache Airflow"
+      ]
+    },
+    {
+      "company": "NewKru",
+      "position": "Intern",
+      "start": "Jun 2015",
+      "stop": "Jul 2015",
+      "highlights": [
+        "Learned about developing native android application",
+        "Learned about developing mobile application with Apache Codova",
+        "Learned about Docker container",
+        "Learned about developing web with MEAN stack",
+        "Learned about Facebook graph API"
       ]
     }
   ],
