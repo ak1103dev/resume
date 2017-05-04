@@ -29,7 +29,7 @@
       }
     ]
   },
-  "profile": "I like to solve problem and learn new things. I am happy when I develop and maintain some product that can solve real problem.",
+  "profile": "I like to solve problem and learn new things. I am happy when I develop and maintain some products that can solve real problem.",
   "technicalSkills": [
     {
       "lang": "Javascript",
@@ -59,7 +59,7 @@
       "start": "Jan 2017",
       "stop": "Apr 2017",
       "highlights": [
-        "Developed android application for using Knowbita comfortably with React Native and NodeJS + Spinal(Microservices Framework)"
+        "Developed android application for using Knowbita comfortably with React Native and Node.js + Spinal(Microservices Framework)"
       ]
     },
     {
@@ -69,7 +69,7 @@
       "stop": "Dec 2016",
       "highlights": [
         "Developed android application with React Native",
-        "Developed web application with React and NodeJS + Spinal(Microservices Framework)",
+        "Developed web application with React and Node.js + Spinal(Microservices Framework)",
         "Processed data from logs with Apache Airflow"
       ]
     },
