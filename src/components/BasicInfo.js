@@ -27,6 +27,37 @@ export default class BasicInfo extends Component {
             )
           }
         </div>
+        <style jsx>{`
+          .basicInfo {
+            padding: 10px 20px;
+          }
+
+          .basicInfo .profileImage {
+            width: 200px;
+            height: 300px;
+            border-radius: 10px;
+          }
+
+          .basicInfo .contact {
+            margin-bottom: 10px;
+          }
+
+          .basicInfo .rowInfo > p {
+            display: inline-block;
+            margin: 5px 0;
+          }
+          .basicInfo .rowInfo > p:nth-child(1) {
+            width: 100px;
+          }
+
+          .basicInfo .socialIcons {
+            display: flex;
+            justify-content: space-around;
+          }
+          .basicInfo .socialIcons > a {
+            color: #0de599;
+          }
+        `}</style>
       </div>
     );
   }

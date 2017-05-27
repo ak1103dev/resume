@@ -10,6 +10,10 @@ class Star extends Component {
             i < num ? <i className="fa fa-star fa-lg" key={i} /> : <i className="fa fa-star-o fa-lg" key={i} />
           )
         }
+        <style jsx>{`
+          .star {
+            color: #0de599; }
+        `}</style>
       </div>
     );
   }
@@ -29,6 +33,15 @@ export default class Skills extends Component {
             </div>
           )
         }
+        <style jsx>{`
+          .skills {
+            padding: 10px 20px; }
+            .skills .rowSkill > p {
+              display: inline-block;
+              width: 150px; }
+            .skills .rowSkill > div {
+              display: inline-block; }
+        `}</style>
       </div>
     );
   }
