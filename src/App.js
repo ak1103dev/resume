@@ -6,7 +6,6 @@ import {
 } from './components';
 import data from './data.json';
 import 'font-awesome/css/font-awesome.css';
-import './App.css';
 
 class App extends Component {
   render() {
@@ -28,6 +27,48 @@ class App extends Component {
           <Interests info={interests} />
           {/* <References info={references} /> */}
         </div>
+        <style jsx>{`
+          @media(min-width: 768px) {
+            .app {
+              padding: 20px 5px;
+              background-color: #333;
+              color: #F1F1F1;
+              margin: 0 150px;
+            }
+            .app .left {
+              display: inline-block;
+              width: calc(38% - 3px);
+              border-right: 3px solid gray;
+            }
+            .app .right {
+              display: inline-block;
+              width: 62%;
+              vertical-align: top;
+            }
+          }
+          @media(max-width: 767px) {
+            .app {
+              padding: 20px 5px;
+              background-color: #333;
+              color: #F1F1F1;
+              margin: 0;
+            }
+          }
+          .title {
+            padding-bottom: 10px;
+            border-bottom: 3px solid #0de599;
+          }
+          h1 {
+            font-size: 24px;
+          }
+          h2 {
+            font-size: 18px;
+            font-weight: normal;
+          }
+          p {
+            font-size: 14px;
+          }
+        `}</style>
       </div>
     );
   }
