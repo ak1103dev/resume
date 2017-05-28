@@ -23,6 +23,22 @@ export default class Experince extends Component {
             </div>
           )
         }
+        <style jsx>{`
+          .experience {
+            padding: 10px 20px; }
+            .experience .exHeader {
+              width: 100%; }
+              .experience .exHeader > h2 {
+                display: inline-block;
+                width: calc(100% - 150px); }
+              .experience .exHeader > p {
+                display: inline-block;
+                width: 150px;
+                text-align: right;
+                color: #7A7A7A;
+                vertical-align: top;
+                padding-top: 5px; }
+        `}</style>
       </div>
     );
   }

@@ -19,6 +19,22 @@ export default class Education extends Component {
             </div>
           )
         }
+        <style jsx>{`
+          .education {
+            padding: 10px 20px; }
+            .education .eduHeader > h2 {
+              display: inline-block;
+              width: calc(100% - 150px); }
+            .education .eduHeader > p {
+              display: inline-block;
+              vertical-align: top;
+              width: 150px;
+              text-align: right;
+              padding-top: 5px;
+              color: #7A7A7A; }
+            .education .eduAddress {
+              margin: 0; }
+        `}</style>
       </div>
     );
   }

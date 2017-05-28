@@ -1,10 +1,10 @@
-import BasicInfo from './BasicInfo/BasicInfo';
-import Profile from './Profile/Profile';
-import Skills from './Skills/Skills';
-import Experience from './Experience/Experience';
-import Education from './Education/Education';
-import Interests from './Interests/Interests';
-import References from './References/References';
+import BasicInfo from './BasicInfo';
+import Profile from './Profile';
+import Skills from './Skills';
+import Experience from './Experience';
+import Education from './Education';
+import Interests from './Interests';
+import References from './References';
 
 export {
   BasicInfo,

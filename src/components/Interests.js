@@ -16,6 +16,17 @@ export default class Interests extends Component {
             )
           }
         </div>
+        <style jsx>{`
+          .interests {
+            padding: 10px 20px; }
+            .interests .interestList {
+              display: flex;
+              justify-content: space-around; }
+              .interests .interestList > div {
+                text-align: center; }
+                .interests .interestList > div > i {
+                  color: #0de599; }
+        `}</style>
       </div>
     );
   }
