@@ -46,11 +46,12 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-snapshot": "^1.1.0"
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js && react-snapshot",
     "test": "node scripts/test.js --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -86,6 +87,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "homepage": "https://ak1103dev.github.io/resume"
+  }
 }

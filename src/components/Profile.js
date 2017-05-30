@@ -9,7 +9,8 @@ export default class Profile extends Component {
         <p>{info}</p>
         <style jsx>{`
           .profile {
-            padding: 10px 20px; }
+            padding: 10px 20px;
+          }
         `}</style>
       </div>
     );

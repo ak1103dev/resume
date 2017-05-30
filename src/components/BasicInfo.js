@@ -10,19 +10,19 @@ export default class BasicInfo extends Component {
         <h2>{info.bio}</h2>
         <div className="contact">
           <div className="rowInfo">
-            <p>Email</p>
-            <p>{info.email}</p>
+            <p className="p label">Email</p>
+            <p className="p">{info.email}</p>
           </div>
           <div className="rowInfo">
-            <p>Address</p>
-            <p>{info.address}</p>
+            <p className="p label">Address</p>
+            <p className="p">{info.address}</p>
           </div>
         </div>
         <div className="socialIcons">
           {
             info.socials.map((social, i) =>
               <a href={social.url} target="_blank" key={i}>
-                <i className={`fa fa-${social.icon} fa-4x`} />
+                <i className={`fa fa-${social.icon} fa-4x socialIcon`} />
               </a>
             )
           }
@@ -42,11 +42,11 @@ export default class BasicInfo extends Component {
             margin-bottom: 10px;
           }
 
-          .basicInfo .rowInfo > p {
+          .basicInfo .p {
             display: inline-block;
             margin: 5px 0;
           }
-          .basicInfo .rowInfo > p:nth-child(1) {
+          .basicInfo .label {
             width: 100px;
           }
 
@@ -54,7 +54,7 @@ export default class BasicInfo extends Component {
             display: flex;
             justify-content: space-around;
           }
-          .basicInfo .socialIcons > a {
+          .basicInfo .socialIcon {
             color: #0de599;
           }
         `}</style>

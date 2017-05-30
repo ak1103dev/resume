@@ -12,7 +12,9 @@ class Star extends Component {
         }
         <style jsx>{`
           .star {
-            color: #0de599; }
+            display: inline-block;
+            color: #0de599;
+          }
         `}</style>
       </div>
     );
@@ -28,19 +30,19 @@ export default class Skills extends Component {
         {
           info.map((skill, i) =>
             <div key={i} className="rowSkill">
-              <p>{skill.lang}</p>
+              <p className="language">{skill.lang}</p>
               <Star num={skill.level} />
             </div>
           )
         }
         <style jsx>{`
           .skills {
-            padding: 10px 20px; }
-            .skills .rowSkill > p {
-              display: inline-block;
-              width: 150px; }
-            .skills .rowSkill > div {
-              display: inline-block; }
+            padding: 10px 20px;
+          }
+          .skills .language {
+            display: inline-block;
+            width: 150px;
+          }
         `}</style>
       </div>
     );

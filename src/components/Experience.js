@@ -10,8 +10,8 @@ export default class Experince extends Component {
           info.map((experience, index) =>
             <div key={index}>
               <div className="exHeader">
-                <h2>{experience.position}, {experience.company}</h2>
-                <p>{experience.start} - {experience.stop}</p>
+                <h2 className="exTitle">{experience.position}, {experience.company}</h2>
+                <p className="exTime">{experience.start} - {experience.stop}</p>
               </div>
               <ul>
                 {
@@ -25,19 +25,23 @@ export default class Experince extends Component {
         }
         <style jsx>{`
           .experience {
-            padding: 10px 20px; }
-            .experience .exHeader {
-              width: 100%; }
-              .experience .exHeader > h2 {
-                display: inline-block;
-                width: calc(100% - 150px); }
-              .experience .exHeader > p {
-                display: inline-block;
-                width: 150px;
-                text-align: right;
-                color: #7A7A7A;
-                vertical-align: top;
-                padding-top: 5px; }
+            padding: 10px 20px;
+          }
+          .experience .exHeader {
+            width: 100%;
+          }
+          .experience .exHeader .exTitle {
+            display: inline-block;
+            width: calc(100% - 150px);
+          }
+          .experience .exHeader .exTime {
+            display: inline-block;
+            width: 150px;
+            text-align: right;
+            color: #7A7A7A;
+            vertical-align: top;
+            padding-top: 5px;
+          }
         `}</style>
       </div>
     );
