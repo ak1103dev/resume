@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import image from '../image/Apichan.jpg'
 
 export default class BasicInfo extends Component {
   render() {
     const { info } = this.props;
     return (
       <div className="basicInfo">
-        <img className="profileImage" src={info.image} alt="apichan" />
+        <img className="profileImage" src={image} alt="apichan" />
         <h1>{info.name}</h1>
         <h2>{info.bio}</h2>
         <div className="contact">
