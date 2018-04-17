@@ -1,7 +1,7 @@
 {
   "basicInfo": {
     "name": "Apichan Chaiyutthasat",
-    "bio": "Fullstack JS Developer",
+    "bio": "Fullstack Developer",
     "tel": "080-xxx-xxxx",
     "email": "apichan.ch@gmail.com",
     "address": "Pathumthani, Thailand",
@@ -59,7 +59,8 @@
       "stop": "Present",
       "highlights": [
         "Develop web application with Vue.js + firebase",
-        "Develop mobile application with React Native"
+        "Develop mobile application with React Native",
+        "Develop API with Loopback (Node.js framework)"
       ]
     },
     {
