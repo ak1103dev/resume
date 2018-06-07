@@ -23,12 +23,21 @@ class Star extends Component {
 
 export default class Skills extends Component {
   render() {
-    const { info } = this.props;
+    const { technicalSkills, languageSkills } = this.props.info;
     return (
       <div className="skills">
         <h1 className="title">Technical Skills</h1>
         {
-          info.map((skill, i) =>
+          technicalSkills.map((skill, i) =>
+            <div key={i} className="rowSkill">
+              <p className="language">{skill.lang}</p>
+              <Star num={skill.level} />
+            </div>
+          )
+        }
+        <h1 className="title">Language Skills</h1>
+        {
+          languageSkills.map((skill, i) =>
             <div key={i} className="rowSkill">
               <p className="language">{skill.lang}</p>
               <Star num={skill.level} />

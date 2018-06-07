@@ -11,6 +11,7 @@ class App extends Component {
   render() {
     const {
       basicInfo, profile, technicalSkills,
+      languageSkills,
       experiences, educations, interests,
       // references,
     } = data;
@@ -19,7 +20,7 @@ class App extends Component {
         <div className="left">
           <BasicInfo info={basicInfo} />
           <Profile info={profile} />
-          <Skills info={technicalSkills} />
+          <Skills info={{ technicalSkills, languageSkills }} />
         </div>
         <div className="right">
           <Experience info={experiences} />

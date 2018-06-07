@@ -28,10 +28,14 @@
       }
     ]
   },
-  "profile": "I like to solve problem and learn new things. I am happy when I develop and maintain some products that can solve real problem.",
+  "profile": [
+    "I like to solve problem and learn new things.",
+    "And I like to share knowledge when I learn new things",
+    "I am happy when I develop and maintain some products that can solve real problem."
+  ],
   "technicalSkills": [
     {
-      "lang": "Javascript",
+      "lang": "JavaScript",
       "level": 5
     },
     {
@@ -43,11 +47,25 @@
       "level": 4
     },
     {
+      "lang": "DevOps",
+      "level": 3
+    },
+    {
       "lang": "Python",
       "level": 3
     },
     {
       "lang": "C / C++",
+      "level": 3
+    }
+  ],
+  "languageSkills": [
+    {
+      "lang": "Thai (Native)",
+      "level": 5
+    },
+    {
+      "lang": "English",
       "level": 3
     }
   ],
@@ -58,6 +76,7 @@
       "start": "Sep 2017",
       "stop": "Present",
       "highlights": [
+        "Develop web application with React, Redux, Redux-Saga",
         "Develop web application with Vue.js + firebase",
         "Develop mobile application with React Native",
         "Develop API with Loopback (Node.js framework)"

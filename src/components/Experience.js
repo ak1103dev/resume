@@ -16,7 +16,7 @@ export default class Experince extends Component {
               <ul>
                 {
                   experience.highlights.map((item, i) =>
-                    <li key={i}>{item}</li>
+                    <li className="exListItem" key={i}>{item}</li>
                   )
                 }
               </ul>
@@ -41,6 +41,9 @@ export default class Experince extends Component {
             color: #7A7A7A;
             vertical-align: top;
             padding-top: 5px;
+          }
+          .experience .exListItem {
+            margin-bottom: 10px;
           }
         `}</style>
       </div>
