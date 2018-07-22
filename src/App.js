@@ -28,7 +28,7 @@ class App extends Component {
           <Interests info={interests} />
           {/* <References info={references} /> */}
         </div>
-        <style jsx>{`
+        <style>{`
           @media(min-width: 768px) {
             .app {
               padding: 20px 5px;

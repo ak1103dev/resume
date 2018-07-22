@@ -7,9 +7,9 @@ export default class Profile extends Component {
       <div className="profile">
         <h1 className="title">Profile</h1>
         {
-          info.map((line) => <p>{line}</p>)
+          info.map((line, index) => <p key={index}>{line}</p>)
         }
-        <style jsx>{`
+        <style>{`
           .profile {
             padding: 10px 20px;
           }

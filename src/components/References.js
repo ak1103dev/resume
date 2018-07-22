@@ -16,7 +16,7 @@ export default class References extends Component {
             )
           }
         </div>
-        <style jsx>{`
+        <style>{`
           .references {
             padding: 10px 20px;
           }

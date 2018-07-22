@@ -19,7 +19,7 @@ export default class Education extends Component {
             </div>
           )
         }
-        <style jsx>{`
+        <style>{`
           .education {
             padding: 10px 20px;
           }

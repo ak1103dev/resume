@@ -23,7 +23,7 @@ export default class Experince extends Component {
             </div>
           )
         }
-        <style jsx>{`
+        <style>{`
           .experience {
             padding: 10px 20px;
           }

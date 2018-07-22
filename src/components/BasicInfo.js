@@ -28,7 +28,7 @@ export default class BasicInfo extends Component {
             )
           }
         </div>
-        <style jsx>{`
+        <style>{`
           .basicInfo {
             padding: 10px 20px;
           }

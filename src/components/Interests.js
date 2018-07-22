@@ -8,15 +8,15 @@ export default class Interests extends Component {
         <h1 className="title">Interests</h1>
         <div className="interestList">
           {
-            info.map((interest, i) =>
-              <div className="icons">
-                <i key={i} className={`fa fa-${interest.icon} fa-4x icon`} />
+            info.map((interest, index) =>
+              <div className="icons" key={index}>
+                <i className={`fa fa-${interest.icon} fa-4x icon`} />
                 <p>{interest.name}</p>
               </div>
             )
           }
         </div>
-        <style jsx>{`
+        <style>{`
           .interests {
             padding: 10px 20px;
           }
