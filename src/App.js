@@ -34,7 +34,8 @@ class App extends Component {
               padding: 20px 5px;
               background-color: #333;
               color: #F1F1F1;
-              margin: 0 150px;
+              width: 768px;
+              margin: 0 auto;
             }
             .app .left {
               display: inline-block;
@@ -45,6 +46,15 @@ class App extends Component {
               display: inline-block;
               width: 62%;
               vertical-align: top;
+            }
+          }
+          @media(min-width: 992px) {
+            .app {
+              padding: 20px 5px;
+              background-color: #333;
+              color: #F1F1F1;
+              width: 992px;
+              margin: 0 auto;
             }
           }
           @media(max-width: 767px) {
