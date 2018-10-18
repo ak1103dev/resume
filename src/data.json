@@ -51,12 +51,16 @@
       "level": 3
     },
     {
-      "lang": "Python",
+      "lang": "Vim",
       "level": 3
     },
     {
+      "lang": "Python",
+      "level": 2
+    },
+    {
       "lang": "C / C++",
-      "level": 3
+      "level": 2
     }
   ],
   "languageSkills": [
@@ -71,10 +75,21 @@
   ],
   "experiences": [
     {
+      "company": "Classwin",
+      "position": "CTO",
+      "start": "Aug 2018",
+      "stop": "Present",
+      "highlights": [
+        "Develop web application with React, Redux, Redux-Saga",
+        "Develop API with Loopback (Node.js framework)",
+        "Manage services with Rancher + Docker"
+      ]
+    },
+    {
       "company": "Witsawa Corporation",
       "position": "Software Developer",
       "start": "Sep 2017",
-      "stop": "Present",
+      "stop": "Aug 2018",
       "highlights": [
         "Develop web application with React, Redux, Redux-Saga",
         "Develop web application with Vue.js + firebase",
