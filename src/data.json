@@ -1,7 +1,7 @@
 {
   "basicInfo": {
     "name": "Apichan Chaiyutthasat",
-    "bio": "Fullstack Developer",
+    "bio": "Fullstack Developer, Bloger",
     "tel": "080-xxx-xxxx",
     "email": "apichan.ch@gmail.com",
     "address": "Pathumthani, Thailand",
@@ -71,6 +71,10 @@
     {
       "lang": "English",
       "level": 3
+    },
+    {
+      "lang": "Chinese",
+      "level": 1
     }
   ],
   "experiences": [
@@ -87,14 +91,17 @@
     },
     {
       "company": "Witsawa Corporation",
-      "position": "Software Developer",
+      "position": "Senior Software Developer",
       "start": "Sep 2017",
-      "stop": "Aug 2018",
+      "stop": "Present",
       "highlights": [
         "Develop web application with React, Redux, Redux-Saga",
+        "Develop web application with React, rematch",
         "Develop web application with Vue.js + firebase",
         "Develop mobile application with React Native",
-        "Develop API with Loopback (Node.js framework)"
+        "Develop API with Loopback (Node.js framework)",
+        "Develop API with Node.js, Apollo (Graphql framework)",
+        "Lead team and manage Kanban board"
       ]
     },
     {
