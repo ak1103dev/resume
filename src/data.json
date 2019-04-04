@@ -105,12 +105,13 @@
       ]
     },
     {
-      "company": "Kasetsart University",
-      "position": "Senior Project Developer",
+      "company": "",
+      "position": "Freelancer",
       "start": "Jan 2017",
-      "stop": "Apr 2017",
+      "stop": "Sep 2017",
       "highlights": [
-        "Developed android application for using Knowbita comfortably with React Native and Node.js + Spinal(Microservices Framework)"
+        "Developed web application (frontend) with React",
+        "Developed API with Node.js, MongoDB, Express.js, SiamPay, Shippop"
       ]
     },
     {
@@ -164,6 +165,10 @@
     {
       "name": "writing blogs",
       "icon": "pencil"
+    },
+    {
+      "name": "investment",
+      "icon": "bitcoin"
     }
   ],
   "references": [

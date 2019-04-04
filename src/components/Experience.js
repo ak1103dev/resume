@@ -10,7 +10,15 @@ export default class Experince extends Component {
           info.map((experience, index) =>
             <div key={index}>
               <div className="exHeader">
-                <h2 className="exTitle">{experience.position}, {experience.company}</h2>
+                <h2 className="exTitle">
+                  {
+                    (experience.position && experience.company) ? (
+                      `${experience.position}, ${experience.company}`
+                    ) : (
+                      experience.position
+                    )
+                  }
+                </h2>
                 <p className="exTime">{experience.start} - {experience.stop}</p>
               </div>
               <ul>
