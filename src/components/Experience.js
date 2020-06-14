@@ -46,7 +46,7 @@ export default class Experince extends Component {
             display: inline-block;
             width: 150px;
             text-align: right;
-            color: #7A7A7A;
+            color: #C2C2C2;
             vertical-align: top;
             padding-top: 5px;
           }

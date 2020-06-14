@@ -33,7 +33,7 @@ export default class Education extends Component {
             width: 150px;
             text-align: right;
             padding-top: 5px;
-            color: #7A7A7A;
+            color: #C2C2C2;
           }
           .education .eduAddress {
             margin: 0;
