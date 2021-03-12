@@ -75,10 +75,6 @@
     {
       "lang": "English",
       "level": 3
-    },
-    {
-      "lang": "Chinese",
-      "level": 1
     }
   ],
   "experiences": [
@@ -95,7 +91,7 @@
     },
     {
       "company": "Witsawa Corporation",
-      "position": "CPO",
+      "position": "Tech Lead",
       "start": "Sep 2017",
       "stop": "Present",
       "highlights": [
@@ -105,7 +101,9 @@
         "Develop mobile application with React Native",
         "Develop API with Loopback (Node.js framework)",
         "Develop API with Node.js, Apollo (Graphql framework)",
-        "Lead team and manage Kanban board"
+        "Lead team and manage Kanban board",
+        "Develop React Native Expo TypeScript Boilerplate",
+        "Develop React Admin TypeScript Boilerplate"
       ]
     },
     {
