@@ -4,7 +4,7 @@ import {
   Experience, Education, Interests,
   // References,
 } from './components';
-import data from './data.json';
+import data from './data';
 import 'font-awesome/css/font-awesome.css';
 
 class App extends Component {

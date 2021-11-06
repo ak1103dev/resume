@@ -1,4 +1,4 @@
-{
+export default {
   "basicInfo": {
     "name": "Apichan Chaiyutthasat",
     "bio": "Fullstack Developer, Bloger",
@@ -103,7 +103,9 @@
         "Develop API with Node.js, Apollo (Graphql framework)",
         "Lead team and manage Kanban board",
         "Develop React Native Expo TypeScript Boilerplate",
-        "Develop React Admin TypeScript Boilerplate"
+        "Develop React Admin TypeScript Boilerplate",
+        "Deploy mobile application to Play Store and App Store",
+        "Manage web service with Rancher or Kubernetes",
       ]
     },
     {
@@ -127,19 +129,19 @@
         "Processed data from logs with Apache Airflow"
       ]
     },
-    {
-      "company": "NewKru",
-      "position": "Intern",
-      "start": "Jun 2015",
-      "stop": "Jul 2015",
-      "highlights": [
-        "Learned about developing native android application",
-        "Learned about developing mobile application with Apache Codova",
-        "Learned about Docker container",
-        "Learned about developing web with MEAN stack",
-        "Learned about Facebook graph API"
-      ]
-    }
+    // {
+    //   "company": "NewKru",
+    //   "position": "Intern",
+    //   "start": "Jun 2015",
+    //   "stop": "Jul 2015",
+    //   "highlights": [
+    //     "Learned about developing native android application",
+    //     "Learned about developing mobile application with Apache Codova",
+    //     "Learned about Docker container",
+    //     "Learned about developing web with MEAN stack",
+    //     "Learned about Facebook graph API"
+    //   ]
+    // }
   ],
   "educations": [
     {
