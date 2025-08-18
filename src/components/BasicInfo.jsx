@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from '../image/Apichan.jpg'
+import image from '../image/profile.jpeg'
 
 export default class BasicInfo extends Component {
   render() {
