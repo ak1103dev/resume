@@ -4,7 +4,7 @@ import{j as d,r,R as m,a as g}from"./vendor.f926c72a.js";const u=function(){cons
           }
 
           .basicInfo .profileImage {
-            width: 200px;
+            width: 300px;
             height: 300px;
             border-radius: 10px;
           }
