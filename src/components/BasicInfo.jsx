@@ -34,7 +34,7 @@ export default class BasicInfo extends Component {
           }
 
           .basicInfo .profileImage {
-            width: 200px;
+            width: 300px;
             height: 300px;
             border-radius: 10px;
           }
