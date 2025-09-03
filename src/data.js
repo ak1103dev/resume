@@ -1,96 +1,96 @@
 export default {
-  "basicInfo": {
-    "name": "Apichan Chaiyutthasat",
-    "bio": "Developer, Blogger, Investor",
-    "tel": "080-xxx-xxxx",
-    "email": "apichan.ch@gmail.com",
-    "address": "Pathumthani, Thailand",
-    "socials": [
+  basicInfo: {
+    name: "Apichan Chaiyutthasat",
+    bio: "Developer, Blogger, Investor",
+    tel: "080-xxx-xxxx",
+    email: "apichan.ch@gmail.com",
+    address: "Pathumthani, Thailand",
+    socials: [
       {
-        "network": "GitHub",
-        "icon": "github",
-        "url": "https://github.com/ak1103dev"
+        network: "GitHub",
+        icon: "github",
+        url: "https://github.com/ak1103dev",
       },
       {
-        "network": "Medium",
-        "icon": "medium",
-        "url": "https://medium.com/@ak1103dev"
+        network: "Medium",
+        icon: "medium",
+        url: "https://medium.com/@ak1103dev",
       },
       {
-        "network": "Facebook",
-        "icon": "facebook-square",
-        "url": "https://www.facebook.com/aphichan.chaiyutthasart"
+        network: "Facebook",
+        icon: "facebook-square",
+        url: "https://www.facebook.com/aphichan.chaiyutthasart",
       },
       {
-        "network": "Twitter",
-        "icon": "twitter",
-        "url": "https://twitter.com/ak1103dev"
-      }
-    ]
+        network: "Twitter",
+        icon: "twitter",
+        url: "https://twitter.com/ak1103dev",
+      },
+    ],
   },
-  "profile": [
+  profile: [
     "I like to solve problem and learn new things.",
     "And I like to share knowledge when I learn new things",
-    "I am happy when I develop and maintain some products that can solve real problem."
+    "I am happy when I develop and maintain some products that can solve real problem.",
   ],
-  "technicalSkills": [
+  technicalSkills: [
     {
-      "lang": "TypeScript",
-      "level": 5
+      lang: "TypeScript",
+      level: 5,
     },
     {
-      "lang": "JavaScript",
-      "level": 5
+      lang: "JavaScript",
+      level: 5,
     },
     {
-      "lang": "HTML / CSS",
-      "level": 4
+      lang: "HTML / CSS",
+      level: 4,
     },
     {
-      "lang": "Unix Scripting",
-      "level": 4
+      lang: "Unix Scripting",
+      level: 4,
     },
     {
-      "lang": "Git",
-      "level": 4
+      lang: "Git",
+      level: 4,
     },
     {
-      "lang": "Docker",
-      "level": 3
+      lang: "Docker",
+      level: 3,
     },
     {
-      "lang": "Vim",
-      "level": 3
+      lang: "Vim",
+      level: 3,
     },
   ],
-  "languageSkills": [
+  languageSkills: [
     {
-      "lang": "Thai (Native)",
-      "level": 5
+      lang: "Thai (Native)",
+      level: 5,
     },
     {
-      "lang": "English",
-      "level": 3
-    }
+      lang: "English",
+      level: 3,
+    },
   ],
-  "experiences": [
+  experiences: [
     {
-      "company": "Classwin",
-      "position": "CTO",
-      "start": "Aug 2018",
-      "stop": "Present",
-      "highlights": [
+      company: "Classwin",
+      position: "CTO",
+      start: "Aug 2018",
+      stop: "Present",
+      highlights: [
         "Develop web application with React, Redux, Redux-Saga",
         "Develop API with Loopback (Node.js framework)",
-        "Manage services with Rancher + Docker"
-      ]
+        "Manage services with Rancher + Docker",
+      ],
     },
     {
-      "company": "Witsawa Corporation",
-      "position": "Tech Lead",
-      "start": "Sep 2017",
-      "stop": "Present",
-      "highlights": [
+      company: "Witsawa Corporation",
+      position: "Tech Lead",
+      start: "Sep 2017",
+      stop: "Present",
+      highlights: [
         "Develop web application with React, Redux, Redux-Saga",
         "Develop web application with React, rematch",
         "Develop web application with Vue.js + firebase",
@@ -102,28 +102,28 @@ export default {
         "Develop React Admin TypeScript Boilerplate",
         "Deploy mobile application to Play Store and App Store",
         "Manage web service with Rancher or Kubernetes",
-      ]
+      ],
     },
     {
-      "company": "",
-      "position": "Freelancer",
-      "start": "Jan 2017",
-      "stop": "Sep 2017",
-      "highlights": [
+      company: "",
+      position: "Freelancer",
+      start: "Jan 2017",
+      stop: "Sep 2017",
+      highlights: [
         "Developed web application (frontend) with React",
-        "Developed API with Node.js, MongoDB, Express.js, SiamPay, Shippop"
-      ]
+        "Developed API with Node.js, MongoDB, Express.js, SiamPay, Shippop",
+      ],
     },
     {
-      "company": "TakeMeTour",
-      "position": "Fullstack Engineer Intern",
-      "start": "Jun 2016",
-      "stop": "Dec 2016",
-      "highlights": [
+      company: "TakeMeTour",
+      position: "Fullstack Engineer Intern",
+      start: "Jun 2016",
+      stop: "Dec 2016",
+      highlights: [
         "Developed android application with React Native",
         "Developed web application with React and Node.js + Spinal(Microservices Framework)",
-        "Processed data from logs with Apache Airflow"
-      ]
+        "Processed data from logs with Apache Airflow",
+      ],
     },
     // {
     //   "company": "NewKru",
@@ -139,43 +139,43 @@ export default {
     //   ]
     // }
   ],
-  "educations": [
+  educations: [
     {
-      "institution": "Kasetsart University",
-      "address": "Bangkok, Thailand",
-      "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "start": "2013",
-      "stop": "2017"
-    }
+      institution: "Kasetsart University",
+      address: "Bangkok, Thailand",
+      area: "Computer Engineering",
+      studyType: "Bachelor",
+      start: "2013",
+      stop: "2017",
+    },
   ],
-  "interests": [
+  interests: [
     {
-      "name": "reading books",
-      "icon": "book"
+      name: "reading books",
+      icon: "book",
     },
     {
-      "name": "watching movies",
-      "icon": "film"
+      name: "watching movies",
+      icon: "film",
     },
     {
-      "name": "listening to music",
-      "icon": "headphones"
+      name: "listening to music",
+      icon: "headphones",
     },
     {
-      "name": "writing blogs",
-      "icon": "pencil"
+      name: "writing blogs",
+      icon: "pencil",
     },
     {
-      "name": "investment",
-      "icon": "bitcoin"
-    }
+      name: "investment",
+      icon: "bitcoin",
+    },
   ],
-  "references": [
+  references: [
     {
-      "name": "Panjamapong Sermsawatsri",
-      "company": "TakeMeTour",
-      "email": "xxx@takemetour.com"
-    }
-  ]
-}
+      name: "Panjamapong Sermsawatsri",
+      company: "TakeMeTour",
+      email: "xxx@takemetour.com",
+    },
+  ],
+};
