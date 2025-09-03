@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
 class Star extends Component {
   render() {
@@ -21,12 +22,13 @@ class Star extends Component {
   }
 }
 
-export default class Skills extends Component {
+class Skills extends Component {
   render() {
     const { technicalSkills, languageSkills } = this.props.info;
+    const { t } = this.props;
     return (
       <div className="skills">
-        <h1 className="title">Technical Skills</h1>
+        <h1 className="title">{t('skills.technical')}</h1>
         {
           technicalSkills.map((skill, i) =>
             <div key={i} className="rowSkill">
@@ -35,7 +37,7 @@ export default class Skills extends Component {
             </div>
           )
         }
-        <h1 className="title">Language Skills</h1>
+        <h1 className="title">{t('skills.language')}</h1>
         {
           languageSkills.map((skill, i) =>
             <div key={i} className="rowSkill">
@@ -57,3 +59,5 @@ export default class Skills extends Component {
     );
   }
 }
+
+export default withTranslation()(Skills);

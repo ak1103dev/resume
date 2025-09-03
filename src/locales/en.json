@@ -1,0 +1,63 @@
+{
+  "basicInfo": {
+    "name": "Apichan Chaiyutthasat",
+    "bio": "Developer, Blogger, Investor",
+    "tel": "080-xxx-xxxx",
+    "email": "apichan.ch@gmail.com",
+    "address": "Pathumthani, Thailand"
+  },
+  "profile": {
+    "title": "Profile",
+    "description": [
+      "I like to solve problem and learn new things.",
+      "And I like to share knowledge when I learn new things",
+      "I am happy when I develop and maintain some products that can solve real problem."
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": "Technical Skills",
+    "language": "Language Skills"
+  },
+  "experience": {
+    "title": "Experience",
+    "present": "Present",
+    "companies": {
+      "Classwin": "Classwin",
+      "Witsawa Corporation": "Witsawa Corporation",
+      "TakeMeTour": "TakeMeTour"
+    },
+    "positions": {
+      "CTO": "CTO",
+      "Tech Lead": "Tech Lead",
+      "Freelancer": "Freelancer",
+      "Fullstack Engineer Intern": "Fullstack Engineer Intern"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "institutions": {
+      "Kasetsart University": "Kasetsart University"
+    },
+    "areas": {
+      "Computer Engineering": "Computer Engineering"
+    },
+    "studyTypes": {
+      "Bachelor": "Bachelor"
+    }
+  },
+  "interests": {
+    "title": "Interests",
+    "items": {
+      "reading books": "reading books",
+      "watching movies": "watching movies",
+      "listening to music": "listening to music",
+      "writing blogs": "writing blogs",
+      "investment": "investment"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "th": "ไทย"
+  }
+}

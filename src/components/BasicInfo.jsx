@@ -1,26 +1,27 @@
 import React, { Component } from "react";
+import { withTranslation } from 'react-i18next';
 import image from "../image/profile.jpeg";
 
-export default class BasicInfo extends Component {
+class BasicInfo extends Component {
   render() {
-    const { info } = this.props;
+    const { t } = this.props;
     return (
       <div className="basicInfo">
         <img className="profileImage" src={image} alt="apichan" />
-        <h1>{info.name}</h1>
-        <h2>{info.bio}</h2>
+        <h1>{t('basicInfo.name')}</h1>
+        <h2>{t('basicInfo.bio')}</h2>
         <div className="contact">
           <div className="rowInfo">
             <p className="p label">Email</p>
-            <p className="p">{info.email}</p>
+            <p className="p">{t('basicInfo.email')}</p>
           </div>
           <div className="rowInfo">
             <p className="p label">Address</p>
-            <p className="p">{info.address}</p>
+            <p className="p">{t('basicInfo.address')}</p>
           </div>
         </div>
         <div className="socialIcons">
-          {info.socials.map((social, i) => {
+          {this.props.info.socials.map((social, i) => {
             // Map old FA4 icons to new FA6 brand icons
             const iconMap = {
               github: "fa-brands fa-github",
@@ -73,3 +74,5 @@ export default class BasicInfo extends Component {
     );
   }
 }
+
+export default withTranslation()(BasicInfo);

@@ -1,0 +1,63 @@
+{
+  "basicInfo": {
+    "name": "อภิชาญ ชัยยุทธศาสตร์",
+    "bio": "นักพัฒนา, บล็อกเกอร์, นักลงทุน",
+    "tel": "080-xxx-xxxx",
+    "email": "apichan.ch@gmail.com",
+    "address": "ปทุมธานี, ประเทศไทย"
+  },
+  "profile": {
+    "title": "ประวัติส่วนตัว",
+    "description": [
+      "ผมชอบแก้ปัญหาและเรียนรู้สิ่งใหม่ๆ",
+      "และผมชอบแบ่งปันความรู้เมื่อได้เรียนรู้สิ่งใหม่",
+      "ผมมีความสุขเมื่อได้พัฒนาและดูแลผลิตภัณฑ์ที่สามารถแก้ปัญหาจริงได้"
+    ]
+  },
+  "skills": {
+    "title": "ทักษะ",
+    "technical": "ทักษะทางเทคนิค",
+    "language": "ทักษะภาษา"
+  },
+  "experience": {
+    "title": "ประสบการณ์การทำงาน",
+    "present": "ปัจจุบัน",
+    "companies": {
+      "Classwin": "คลาสวิน",
+      "Witsawa Corporation": "วิศวะ คอร์ปอเรชั่น",
+      "TakeMeTour": "เทคมีทัวร์"
+    },
+    "positions": {
+      "CTO": "หัวหน้าเจ้าหน้าที่เทคโนโลยี",
+      "Tech Lead": "หัวหน้าทีมเทคนิค",
+      "Freelancer": "ฟรีแลนซ์",
+      "Fullstack Engineer Intern": "นักพัฒนาฟูลสแตค (ฝึกงาน)"
+    }
+  },
+  "education": {
+    "title": "การศึกษา",
+    "institutions": {
+      "Kasetsart University": "มหาวิทยาลัยเกษตรศาสตร์"
+    },
+    "areas": {
+      "Computer Engineering": "วิศวกรรมคอมพิวเตอร์"
+    },
+    "studyTypes": {
+      "Bachelor": "ปริญญาตรี"
+    }
+  },
+  "interests": {
+    "title": "ความสนใจ",
+    "items": {
+      "reading books": "อ่านหนังสือ",
+      "watching movies": "ดูหนัง",
+      "listening to music": "ฟังเพลง",
+      "writing blogs": "เขียนบล็อก",
+      "investment": "การลงทุน"
+    }
+  },
+  "languages": {
+    "en": "English",
+    "th": "ไทย"
+  }
+}

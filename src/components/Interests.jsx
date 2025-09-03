@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
-export default class Interests extends Component {
+class Interests extends Component {
   render() {
-    const { info } = this.props;
+    const { info, t } = this.props;
     return (
       <div className="interests">
-        <h1 className="title">Interests</h1>
+        <h1 className="title">{t('interests.title')}</h1>
         <div className="interestList">
           {
             info.map((interest, index) => {
@@ -22,7 +23,7 @@ export default class Interests extends Component {
               return (
                 <div className="icons" key={index}>
                   <i className={`${iconClass} fa-4x icon`} />
-                  <p>{interest.name}</p>
+                  <p>{t(`interests.items.${interest.name}`)}</p>
                 </div>
               );
             })
@@ -47,3 +48,5 @@ export default class Interests extends Component {
     );
   }
 }
+
+export default withTranslation()(Interests);

@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
-export default class Education extends Component {
+class Education extends Component {
   render() {
-    const { info } = this.props;
+    const { info, t } = this.props;
     return (
       <div className="education">
-        <h1 className="title">Education</h1>
+        <h1 className="title">{t('education.title')}</h1>
         {
           info.map((education, index) =>
             <div key={index}>
@@ -43,3 +44,5 @@ export default class Education extends Component {
     );
   }
 }
+
+export default withTranslation()(Education);

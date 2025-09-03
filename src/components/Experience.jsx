@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
-export default class Experince extends Component {
+class Experience extends Component {
   render() {
-    const { info } = this.props;
+    const { info, t } = this.props;
     return (
       <div className="experience">
-        <h1 className="title">Experience</h1>
+        <h1 className="title">{t('experience.title')}</h1>
         {
           info.map((experience, index) =>
             <div key={index}>
@@ -19,7 +20,7 @@ export default class Experince extends Component {
                     )
                   }
                 </h2>
-                <p className="exTime">{experience.start} - {experience.stop}</p>
+                <p className="exTime">{experience.start} - {experience.stop === 'Present' ? t('experience.present') : experience.stop}</p>
               </div>
               <ul>
                 {
@@ -58,3 +59,5 @@ export default class Experince extends Component {
     );
   }
 }
+
+export default withTranslation()(Experience);

@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
+import { withTranslation } from 'react-i18next';
 
-export default class Profile extends Component {
+class Profile extends Component {
   render() {
-    const { info } = this.props;
+    const { t } = this.props;
     return (
       <div className="profile">
-        <h1 className="title">Profile</h1>
+        <h1 className="title">{t('profile.title')}</h1>
         {
-          info.map((line, index) => <p key={index}>{line}</p>)
+          t('profile.description', { returnObjects: true }).map((line, index) => <p key={index}>{line}</p>)
         }
         <style>{`
           .profile {
@@ -18,3 +19,5 @@ export default class Profile extends Component {
     );
   }
 }
+
+export default withTranslation()(Profile);

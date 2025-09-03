@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Education from './Education';
 import Interests from './Interests';
 import References from './References';
+import LanguageSwitcher from './LanguageSwitcher';
 
 export {
   BasicInfo,
@@ -14,4 +15,5 @@ export {
   Education,
   Interests,
   References,
+  LanguageSwitcher,
 }
