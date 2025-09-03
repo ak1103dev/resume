@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "react-spa-prerender && echo 'resume.ak1103dev.com' > ./dist/CNAME",
+    "postbuild": "node scripts/prerender.js",
     "serve": "vite preview"
   },
   "dependencies": {
