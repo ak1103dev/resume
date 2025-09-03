@@ -5,7 +5,7 @@ import {
   // References,
 } from './components';
 import data from './data';
-import 'font-awesome/css/font-awesome.css';
+import '@fortawesome/fontawesome-free/css/all.css';
 import './App.css'
 
 class App extends Component {
