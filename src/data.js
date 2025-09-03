@@ -1,7 +1,7 @@
 export default {
   "basicInfo": {
     "name": "Apichan Chaiyutthasat",
-    "bio": "Fullstack Developer, Bloger",
+    "bio": "Developer, Blogger, Investor",
     "tel": "080-xxx-xxxx",
     "email": "apichan.ch@gmail.com",
     "address": "Pathumthani, Thailand",
@@ -35,6 +35,10 @@ export default {
   ],
   "technicalSkills": [
     {
+      "lang": "TypeScript",
+      "level": 5
+    },
+    {
       "lang": "JavaScript",
       "level": 5
     },
@@ -58,14 +62,6 @@ export default {
       "lang": "Vim",
       "level": 3
     },
-    {
-      "lang": "Python",
-      "level": 2
-    },
-    {
-      "lang": "C / C++",
-      "level": 2
-    }
   ],
   "languageSkills": [
     {

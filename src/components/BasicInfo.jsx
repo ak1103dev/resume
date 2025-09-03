@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import image from '../image/profile.jpeg'
+import React, { Component } from "react";
+import image from "../image/profile.jpeg";
 
 export default class BasicInfo extends Component {
   render() {
@@ -20,13 +20,23 @@ export default class BasicInfo extends Component {
           </div>
         </div>
         <div className="socialIcons">
-          {
-            info.socials.map((social, i) =>
+          {info.socials.map((social, i) => {
+            // Map old FA4 icons to new FA6 brand icons
+            const iconMap = {
+              github: "fa-brands fa-github",
+              medium: "fa-brands fa-medium",
+              "facebook-square": "fa-brands fa-facebook",
+              twitter: "fa-brands fa-twitter",
+            };
+            const iconClass =
+              iconMap[social.icon] || `fa-solid fa-${social.icon}`;
+
+            return (
               <a href={social.url} target="_blank" rel="noreferrer" key={i}>
-                <i className={`fa fa-${social.icon} fa-4x socialIcon`} />
+                <i className={`${iconClass} fa-4x socialIcon`} />
               </a>
-            )
-          }
+            );
+          })}
         </div>
         <style>{`
           .basicInfo {

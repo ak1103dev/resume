@@ -8,12 +8,24 @@ export default class Interests extends Component {
         <h1 className="title">Interests</h1>
         <div className="interestList">
           {
-            info.map((interest, index) =>
-              <div className="icons" key={index}>
-                <i className={`fa fa-${interest.icon} fa-4x icon`} />
-                <p>{interest.name}</p>
-              </div>
-            )
+            info.map((interest, index) => {
+              // Map icons to proper Font Awesome 6 classes
+              const iconMap = {
+                'book': 'fa-solid fa-book',
+                'film': 'fa-solid fa-film',
+                'headphones': 'fa-solid fa-headphones',
+                'pencil': 'fa-solid fa-pencil',
+                'bitcoin': 'fa-brands fa-bitcoin'
+              };
+              const iconClass = iconMap[interest.icon] || `fa-solid fa-${interest.icon}`;
+
+              return (
+                <div className="icons" key={index}>
+                  <i className={`${iconClass} fa-4x icon`} />
+                  <p>{interest.name}</p>
+                </div>
+              );
+            })
           }
         </div>
         <style>{`

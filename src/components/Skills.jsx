@@ -7,7 +7,7 @@ class Star extends Component {
       <div className="star">
         {
           [0, 0, 0, 0, 0].map((star, i) =>
-            i < num ? <i className="fa fa-star fa-lg" key={i} /> : <i className="fa fa-star-o fa-lg" key={i} />
+            i < num ? <i className="fa-solid fa-star fa-lg" key={i} /> : <i className="fa-regular fa-star fa-lg" key={i} />
           )
         }
         <style>{`
